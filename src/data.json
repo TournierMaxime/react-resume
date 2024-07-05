@@ -1,0 +1,202 @@
+ {
+  "header": {
+    "title": "Maxime Tournier",
+    "subTitle": "Full Stack Developer"
+  },
+  "summary": {
+    "title": "Summary",
+    "paragraph": "Full Stack Developer with solid experience in designing, optimizing and deploying websites and applications. Expertise in Javascript technologies and associated frameworks. Ability to work in demanding environments and collaborate effectively with multidisciplinary teams."
+  },
+  "experience": {
+    "title": "Experiences",
+    "experiences": [
+      {
+        "job": "Full Stack Developer",
+        "company": "Devs de France",
+        "location": "Nice, France",
+        "years": "Oct 2022 - Oct 2024",
+        "tasks": [
+          {
+            "name": "Reduced development environment setup time by 50% through standardization with Docker."
+          },
+          {
+            "name": "Implemented a robust API architecture as modules (libraries), reducing and enhancing integration with different client applications."
+          },
+          {
+            "name": "Increased unit test coverage with Jest, ensuring reliability and reducing production bugs."
+          },
+          {
+            "name": "Actively utilized Jira to enhance agile management, reducing development task delivery times by 20%."
+          },
+          {
+            "name": "Developed a mobile application for a logistics company, enhancing the management of machines and reducing maintenance costs by 25%."
+          },
+          {
+            "name": "Designed a custom back-office solution for centralized data management and optimizing operational processes."
+          }
+        ]
+      },
+      {
+        "job": "After Sales Service",
+        "company": "Pascal Coste Shopping",
+        "location": "Carros, France",
+        "years": "Oct 2019 - Jul 2022",
+        "tasks": [
+            {
+              "name": "Resolved customer and supplier disputes, achieving a 70% resolution rate and reducing escalations by 20%."
+            },
+            {
+              "name": "Improved customer communication via phone and Zendesk, increasing satisfaction by 30% and cutting response time by 25%."
+            },
+            {
+              "name": "Trained colleagues on handling tasks, boosting team efficiency and reducing errors."
+            }
+        ]
+      },
+      {
+        "job": "Sanitary Assistant",
+        "company": "French Army",
+        "location": "La Valbone, France",
+        "years": "Oct 2018 - May 2019",
+        "tasks": [
+          {
+            "name": "Graduated top of the class, ranking 1st out of 40."
+          },
+          {
+            "name": "Provided assistance in emergency situations, such as public disorder."
+          },
+          {
+            "name": "Participated in Operation Sentinelle, contributing to national security."
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "educations": [
+      {
+        "school": "OpenClassRooms",
+        "years": "May 2021 - May 2022",
+        "diploma": "Web development (diploma 2 years)",
+        "location": "Paris"
+      }
+    ] 
+  },
+"softSkill": {
+  "title": "Strengths",
+  "skills": [
+    {
+      "title": "Resolve problems",
+      "description": "Analyze issues and find solutions"
+    },
+    {
+      "title": "Communicate",
+      "description": "Collaborate with team and stakeholders"
+    },
+    {
+      "title": "Adaptability",
+      "description": "Adjust to new challenges and changes"
+    },
+    {
+      "title": "Organize",
+      "description": "Manage time and prioritize tasks"
+    },
+    {
+      "title": "Collaborate",
+      "description": "Work well in a team environment"
+    },
+    {
+      "title": "Meticulous",
+      "description": "Ensure high-quality code and debugging"
+    }
+  ]
+},
+  "hardSkill": {
+    "title": "Skills",
+    "categories": [
+      {
+        "title": "Frontend",
+        "skills": [
+          {
+            "name": "React.js",
+            "rate": 4
+          },
+          {
+            "name": "React Native",
+            "rate": 4
+          },
+          {
+            "name": "Redux",
+            "rate": 4
+          },
+          {
+            "name": "Typescript",
+            "rate": 4
+          },
+          {
+            "name": "Next.js",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "Backend",
+        "skills": [
+          {
+            "name": "Node.js",
+            "rate": 4
+          },
+          {
+            "name": "PostGreSQL/MySQL",
+            "rate": 4
+          },
+          {
+            "name": "Prisma/Sequelize",
+            "rate": 4
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "skills": [
+          {
+            "name": "Jest",
+            "rate": 3
+          },
+          {
+            "name": "Cypress",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "DevOps",
+        "skills": [
+          {
+            "name": "Docker",
+            "rate": 3
+          }
+        ]
+      },
+      {
+        "title": "Project Management",
+        "skills": [
+          {
+            "name": "Jira",
+            "rate": 4
+          },
+          {
+            "name": "Confluence",
+            "rate": 3
+          },
+          {
+            "name": "Agile/Scrum",
+            "rate": 3
+          }
+        ]
+      }
+    ]
+  }
+}
+

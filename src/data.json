@@ -1,20 +1,28 @@
- {
+{
   "header": {
     "title": "Maxime Tournier",
-    "subTitle": "Full Stack Developer"
+    "subTitle": "Full Stack Developer",
+    "email": "tourniermaxime@orange.fr",
+    "phone": "+33.7.49.63.69.96",
+    "linkedin": "tourniermaxime",
+    "github": "TournierMaxime",
+    "gitlab": "mtournier1",
+    "linkedinLink": "https://www.linkedin.com/in/tourniermaxime/",
+    "githubLink": "https://github.com/TournierMaxime?tab=repositories",
+    "gitlabLink": "https://gitlab.com/mtournier1"
   },
   "summary": {
-    "title": "Summary",
+    "title": "SUMMARY",
     "paragraph": "Full Stack Developer with solid experience in designing, optimizing and deploying websites and applications. Expertise in Javascript technologies and associated frameworks. Ability to work in demanding environments and collaborate effectively with multidisciplinary teams."
   },
   "experience": {
-    "title": "Experiences",
+    "title": "EXPERIENCES",
     "experiences": [
       {
         "job": "Full Stack Developer",
         "company": "Devs de France",
         "location": "Nice, France",
-        "years": "Oct 2022 - Oct 2024",
+        "years": "Oct 2022 - Present",
         "tasks": [
           {
             "name": "Reduced development environment setup time by 50% through standardization with Docker."
@@ -42,15 +50,15 @@
         "location": "Carros, France",
         "years": "Oct 2019 - Jul 2022",
         "tasks": [
-            {
-              "name": "Resolved customer and supplier disputes, achieving a 70% resolution rate and reducing escalations by 20%."
-            },
-            {
-              "name": "Improved customer communication via phone and Zendesk, increasing satisfaction by 30% and cutting response time by 25%."
-            },
-            {
-              "name": "Trained colleagues on handling tasks, boosting team efficiency and reducing errors."
-            }
+          {
+            "name": "Resolved customer and supplier disputes, achieving a 70% resolution rate and reducing escalations by 20%."
+          },
+          {
+            "name": "Improved customer communication via phone and Zendesk, increasing satisfaction by 30% and cutting response time by 25%."
+          },
+          {
+            "name": "Trained colleagues on handling tasks, boosting team efficiency and reducing errors."
+          }
         ]
       },
       {
@@ -73,7 +81,7 @@
     ]
   },
   "education": {
-    "title": "Education",
+    "title": "EDUCATION",
     "educations": [
       {
         "school": "OpenClassRooms",
@@ -81,42 +89,34 @@
         "diploma": "Web development (diploma 2 years)",
         "location": "Paris"
       }
-    ] 
+    ]
   },
-"softSkill": {
-  "title": "Strengths",
-  "skills": [
-    {
-      "title": "Resolve problems",
-      "description": "Analyze issues and find solutions"
-    },
-    {
-      "title": "Communicate",
-      "description": "Collaborate with team and stakeholders"
-    },
-    {
-      "title": "Adaptability",
-      "description": "Adjust to new challenges and changes"
-    },
-    {
-      "title": "Organize",
-      "description": "Manage time and prioritize tasks"
-    },
-    {
-      "title": "Collaborate",
-      "description": "Work well in a team environment"
-    },
-    {
-      "title": "Meticulous",
-      "description": "Ensure high-quality code and debugging"
-    }
-  ]
-},
+  "softSkill": {
+    "title": "STRENGTHS",
+    "skills": [
+      {
+        "title": "Resolve problems",
+        "description": "Analyze issues and find solutions"
+      },
+      {
+        "title": "Communicate",
+        "description": "Collaborate with team and stakeholders"
+      },
+      {
+        "title": "Adaptability",
+        "description": "Adjust to new challenges and changes"
+      },
+      {
+        "title": "Organize",
+        "description": "Manage time and prioritize tasks"
+      }
+    ]
+  },
   "hardSkill": {
-    "title": "Skills",
+    "title": "SKILLS",
     "categories": [
       {
-        "title": "Frontend",
+        "title": "Client-Side",
         "skills": [
           {
             "name": "React.js",
@@ -141,25 +141,33 @@
         ]
       },
       {
-        "title": "Backend",
+        "title": "Server-Side",
         "skills": [
           {
             "name": "Node.js",
             "rate": 4
           },
           {
-            "name": "PostGreSQL/MySQL",
+            "name": "PostGreSQL / MySQL",
             "rate": 4
           },
           {
-            "name": "Prisma/Sequelize",
+            "name": "Prisma / Sequelize",
             "rate": 4
+          },
+          {
+            "name": "RabbitMQ",
+            "rate": 3
           }
         ]
       },
       {
-        "title": "Testing",
+        "title": "Development & Operations",
         "skills": [
+          {
+            "name": "GIT",
+            "rate": 5
+          },
           {
             "name": "Jest",
             "rate": 3
@@ -167,21 +175,11 @@
           {
             "name": "Cypress",
             "rate": 3
-          }
-        ]
-      },
-      {
-        "title": "DevOps",
-        "skills": [
+          },
           {
             "name": "Docker",
             "rate": 3
-          }
-        ]
-      },
-      {
-        "title": "Project Management",
-        "skills": [
+          },
           {
             "name": "Jira",
             "rate": 4
@@ -191,7 +189,7 @@
             "rate": 3
           },
           {
-            "name": "Agile/Scrum",
+            "name": "Agile / Scrum",
             "rate": 3
           }
         ]
@@ -199,4 +197,3 @@
     ]
   }
 }
-

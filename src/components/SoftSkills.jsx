@@ -13,6 +13,7 @@ export default function SoftSkills() {
   return (
     <div className="softSkill">
       <h3>{data.softSkill.title}</h3>
+      <hr />
       <ul>{skills}</ul>
     </div>
   )

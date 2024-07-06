@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import data from "../data.json"
 
 export default function HardSkills() {
@@ -31,6 +31,7 @@ export default function HardSkills() {
   return (
     <div className="hardSkill">
       <h3>{data.hardSkill.title}</h3>
+      <hr />
       {categories}
     </div>
   )

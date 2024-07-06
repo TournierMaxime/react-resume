@@ -9,15 +9,24 @@ export default function Header() {
       <ul>
         <li>
           <span className="material-symbols-outlined">mail</span>
-          tourniermaxime@orange.fr
+          {data.header.email}
         </li>
         <li>
           <span className="material-symbols-outlined">call</span>
-          +33.7.49.63.69.96
+          {data.header.phone}
         </li>
         <li>
-          <i class="fa-brands fa-linkedin-in"></i>
-          &nbsp;tourniermaxime
+          <i className="fa-brands fa-linkedin-in"></i>
+          &nbsp;<a href={data.header.linkedinLink}>{data.header.linkedin}</a>
+        </li>
+        <li>
+          <i className="fa-brands fa-github"></i>
+          &nbsp;
+          <a href={data.header.githubLink}>{data.header.github}</a>
+        </li>
+        <li>
+          <i className="fa-brands fa-gitlab"></i>
+          &nbsp;<a href={data.header.gitlabLink}>{data.header.gitlab}</a>
         </li>
       </ul>
     </div>

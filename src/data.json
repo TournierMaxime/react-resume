@@ -20,7 +20,7 @@
         "job": "Développeur Full Stack",
         "company": "Devs de France",
         "location": "Nice, France",
-        "years": "Oct 2022 - Présent",
+        "years": "Oct 2022 - Oct 2024",
         "tasks": [
           {
             "name": "Réduction du temps d'installation des environnements de développement grâce à la standardisation avec Docker."
@@ -63,7 +63,7 @@
         "job": "Assistant Sanitaire",
         "company": "Armée Française",
         "location": "La Valbone, France",
-        "years": "Oct 2018 - Mai 2019",
+        "years": "Oct 2018 - Juil 2019",
         "tasks": [
           {
             "name": "Diplômé premier de la classe, classé 1er sur 40."
@@ -85,12 +85,6 @@
         "school": "OpenClassRooms",
         "years": "Oct 2022 - Oct 2024",
         "diploma": "Développeur Concepteur Logiciel (Bac+3)",
-        "location": "Paris"
-      },
-      {
-        "school": "OpenClassRooms",
-        "years": "Mai 2021 - Mai 2022",
-        "diploma": "Développement Web (Bac+2)",
         "location": "Paris"
       }
     ]

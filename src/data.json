@@ -1,119 +1,123 @@
 {
   "header": {
     "title": "Maxime Tournier",
-    "subTitle": "Full Stack Developer",
+    "subTitle": "Développeur Full Stack",
     "email": "tourniermaxime@orange.fr",
-    "phone": "+33.7.49.63.69.96",
+    "phone": "+33.6.09.55.66.08",
     "linkedin": "tourniermaxime",
     "github": "TournierMaxime",
-    "gitlab": "mtournier1",
     "linkedinLink": "https://www.linkedin.com/in/tourniermaxime/",
-    "githubLink": "https://github.com/TournierMaxime?tab=repositories",
-    "gitlabLink": "https://gitlab.com/mtournier1"
+    "githubLink": "https://github.com/TournierMaxime?tab=repositories"
   },
   "summary": {
-    "title": "SUMMARY",
-    "paragraph": "Full Stack Developer with solid experience in designing, optimizing and deploying websites and applications. Expertise in Javascript technologies and associated frameworks. Ability to work in demanding environments and collaborate effectively with multidisciplinary teams."
+    "title": "SOMMAIRE",
+    "paragraph": "Développeur Full Stack avec une solide expérience dans la conception, l'optimisation et le déploiement de sites web et d'applications. Expertise des technologies JavaScript et des frameworks associés. Capacité à travailler dans des environnements exigeants et à collaborer efficacement avec des équipes multidisciplinaires."
   },
   "experience": {
-    "title": "EXPERIENCES",
+    "title": "EXPÉRIENCES",
     "experiences": [
       {
-        "job": "Full Stack Developer",
+        "job": "Développeur Full Stack",
         "company": "Devs de France",
         "location": "Nice, France",
-        "years": "Oct 2022 - Present",
+        "years": "Oct 2022 - Présent",
         "tasks": [
           {
-            "name": "Reduced development environment setup time by 50% through standardization with Docker."
+            "name": "Réduction du temps d'installation des environnements de développement grâce à la standardisation avec Docker."
           },
           {
-            "name": "Implemented a robust API architecture as modules (libraries), reducing and enhancing integration with different client applications."
+            "name": "Mise en place d'architecture API robuste sous forme de modules (bibliothèques), facilitant et améliorant l'intégration avec diverses applications clientes."
           },
           {
-            "name": "Increased unit test coverage with Jest, ensuring reliability and reducing production bugs."
+            "name": "Augmentation de la couverture des tests unitaires avec Jest, garantissant la fiabilité et réduisant les bugs en production."
           },
           {
-            "name": "Actively utilized Jira to enhance agile management, reducing development task delivery times by 20%."
+            "name": "Utilisation active de Jira pour améliorer la gestion agile, réduisant les délais de livraison des tâches de développement de 20%."
           },
           {
-            "name": "Developed a mobile application for a logistics company, enhancing the management of machines and reducing maintenance costs by 25%."
+            "name": "Développement d'une application mobile pour une entreprise de logistique, améliorant la gestion des machines et réduisant les coûts de maintenance de 25%."
           },
           {
-            "name": "Designed a custom back-office solution for centralized data management and optimizing operational processes."
+            "name": "Conception d'une solution back-office sur mesure pour la gestion centralisée des données et l'optimisation des processus opérationnels."
           }
         ]
       },
       {
-        "job": "After Sales Service",
+        "job": "Service Après-Vente",
         "company": "Pascal Coste Shopping",
         "location": "Carros, France",
-        "years": "Oct 2019 - Jul 2022",
+        "years": "Oct 2019 - Juil 2022",
         "tasks": [
           {
-            "name": "Resolved customer and supplier disputes, achieving a 70% resolution rate and reducing escalations by 20%."
+            "name": "Résolution des litiges clients et fournisseurs avec un taux de résolution de 70%."
           },
           {
-            "name": "Improved customer communication via phone and Zendesk, increasing satisfaction by 30% and cutting response time by 25%."
+            "name": "Amélioration de la communication client via téléphone et Zendesk, augmentant la satisfaction de 30% et réduisant le temps de réponse de 25%."
           },
           {
-            "name": "Trained colleagues on handling tasks, boosting team efficiency and reducing errors."
+            "name": "Formation des collaborateurs sur la gestion des tâches, augmentant l'efficacité de l'équipe et réduisant les erreurs."
           }
         ]
       },
       {
-        "job": "Sanitary Assistant",
-        "company": "French Army",
+        "job": "Assistant Sanitaire",
+        "company": "Armée Française",
         "location": "La Valbone, France",
-        "years": "Oct 2018 - May 2019",
+        "years": "Oct 2018 - Mai 2019",
         "tasks": [
           {
-            "name": "Graduated top of the class, ranking 1st out of 40."
+            "name": "Diplômé premier de la classe, classé 1er sur 40."
           },
           {
-            "name": "Provided assistance in emergency situations, such as public disorder."
+            "name": "Assistance dans des situations d'urgence, telles que des troubles publics."
           },
           {
-            "name": "Participated in Operation Sentinelle, contributing to national security."
+            "name": "Participation à l'Opération Sentinelle, contribuant à la sécurité nationale."
           }
         ]
       }
     ]
   },
   "education": {
-    "title": "EDUCATION",
+    "title": "FORMATION",
     "educations": [
       {
         "school": "OpenClassRooms",
-        "years": "May 2021 - May 2022",
-        "diploma": "Web development (diploma 2 years)",
+        "years": "Oct 2022 - Oct 2024",
+        "diploma": "Développeur Concepteur Logiciel (Bac+3)",
+        "location": "Paris"
+      },
+      {
+        "school": "OpenClassRooms",
+        "years": "Mai 2021 - Mai 2022",
+        "diploma": "Développement Web (Bac+2)",
         "location": "Paris"
       }
     ]
   },
   "softSkill": {
-    "title": "STRENGTHS",
+    "title": "POINTS FORTS",
     "skills": [
       {
-        "title": "Resolve problems",
-        "description": "Analyze issues and find solutions"
+        "title": "Résolution de problèmes",
+        "description": "Analyser les problèmes et trouver des solutions"
       },
       {
-        "title": "Communicate",
-        "description": "Collaborate with team and stakeholders"
+        "title": "Communication",
+        "description": "Collaborer avec l'équipe et les parties prenantes"
       },
       {
-        "title": "Adaptability",
-        "description": "Adjust to new challenges and changes"
+        "title": "Adaptabilité",
+        "description": "S'adapter aux nouveaux défis et aux changements"
       },
       {
-        "title": "Organize",
-        "description": "Manage time and prioritize tasks"
+        "title": "Organisation",
+        "description": "Gérer le temps et prioriser les tâches"
       }
     ]
   },
   "hardSkill": {
-    "title": "SKILLS",
+    "title": "COMPÉTENCES",
     "categories": [
       {
         "title": "Client-Side",
@@ -162,7 +166,7 @@
         ]
       },
       {
-        "title": "Development & Operations",
+        "title": "Développement et opérations",
         "skills": [
           {
             "name": "GIT",

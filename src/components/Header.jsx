@@ -24,10 +24,6 @@ export default function Header() {
           &nbsp;
           <a href={data.header.githubLink}>{data.header.github}</a>
         </li>
-        <li>
-          <i className="fa-brands fa-gitlab"></i>
-          &nbsp;<a href={data.header.gitlabLink}>{data.header.gitlab}</a>
-        </li>
       </ul>
     </div>
   )

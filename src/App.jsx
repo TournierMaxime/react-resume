@@ -1,41 +1,56 @@
-import Education from "./components/Education"
-import Experience from "./components/Experience"
-import Header from "./components/Header"
-import Summary from "./components/Summary"
-import SoftSkills from "./components/SoftSkills"
-import HardSkills from "./components/HardSkills"
+import Education from "./components/Education.jsx"
+import Experience from "./components/Experience.jsx"
+import Header from "./components/Header.jsx"
+import Summary from "./components/Summary.jsx"
+import SoftSkills from "./components/SoftSkills.jsx"
+import HardSkills from "./components/HardSkills.jsx"
 import "./styles/App.scss"
 import React, { useRef } from "react"
-import { jsPDF } from "jspdf"
-import html2canvas from "html2canvas"
-import data from "./data.json"
+import { Page, View, Document, StyleSheet, pdf } from '@react-pdf/renderer';
 
 const App = () => {
   const pdfRef = useRef()
 
+  const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    padding: 10,
+  },
+  left: {
+    flex: 1,
+    marginRight: 10,
+  },
+  right: {
+    flex: 1,
+  },
+  });
+  
+  const MyPDFDocument = () => (
+  <Document>
+    <Page size="A4" style={{ padding: 20 }}>
+      <Header />
+      <View style={styles.container}>
+        <View style={styles.left}>
+          <Summary />
+          <Experience />
+          <Education />
+        </View>
+        <View style={styles.right}>
+          <HardSkills />
+          <SoftSkills />
+        </View>
+      </View>
+    </Page>
+  </Document>
+);
+
   const handleDownloadPDF = async () => {
-    const input = pdfRef.current
-    const canvas = await html2canvas(input)
-    const imgData = canvas.toDataURL("image/png")
-    const pdf = new jsPDF("p", "mm", "a4")
-    const imgProps = pdf.getImageProperties(imgData)
-    const pdfWidth = pdf.internal.pageSize.getWidth() - 4
-    const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width
-
-    pdf.addImage(imgData, "PNG", 2, 2, pdfWidth, pdfHeight)
-
-    const links = input.querySelectorAll("a")
-    links.forEach((link) => {
-      const rect = link.getBoundingClientRect()
-      const x = rect.left * 0.264583
-      const y = rect.top * 0.264583
-      const width = rect.width * 0.264583
-      const height = rect.height * 0.264583
-      pdf.link(x + 2, y + 2, width, height, { url: link.href })
-    })
-
-    pdf.save("resume_Maxime_Tournier.pdf")
-  }
+    const blob = await pdf(<MyPDFDocument />).toBlob();
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'resume_Maxime_Tournier.pdf';
+    link.click();
+  };
 
   return (
     <div className="App">

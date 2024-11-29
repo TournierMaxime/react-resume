@@ -7,7 +7,7 @@ export default function Education() {
       <div className="container" key={index}>
         <div className="header">
           <h4>{education.diploma}</h4>
-          <h6>{education.years}</h6>
+          {/* <h6>{education.years}</h6> */}
         </div>
         <div className="subHeader">
           <h5>
